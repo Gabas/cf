@@ -8,9 +8,3 @@ describe('greet_test', function() {
 		expect(greet('Roman')).to.eql('hello Roman');
 	});
 });
-
-describe('arguments', function() {
-	it('should check 3-rd argument', function() {
-		expect().to.eql('');
-	});
-});
