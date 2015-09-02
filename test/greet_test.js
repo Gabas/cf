@@ -9,8 +9,8 @@ describe('greet_test', function() {
 	});
 });
 
-describe('arguments', function() {
-	it('should check 3-rd argument', function() {
-		expect().to.eql('');
+describe('arguments test', function() {
+	it('should get 3-rd argument from command line', function() {
+		expect(require('../lib/addargument')).to.eql('Roman');
 	});
 });
